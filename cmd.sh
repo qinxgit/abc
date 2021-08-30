@@ -1,1 +1,1 @@
-nslookup uswest2-bvt.hfc.core.azure-int.net
+nslookup www.microsoft.com
