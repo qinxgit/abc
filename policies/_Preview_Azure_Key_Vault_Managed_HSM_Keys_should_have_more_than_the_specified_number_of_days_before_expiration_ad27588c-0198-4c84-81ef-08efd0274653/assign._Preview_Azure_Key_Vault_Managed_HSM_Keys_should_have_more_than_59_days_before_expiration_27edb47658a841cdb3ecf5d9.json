@@ -1,0 +1,33 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "[Preview]: Azure Key Vault Managed HSM Keys should have more than 59 days before expiration",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/ad27588c-0198-4c84-81ef-08efd0274653",
+  "scope": "/subscriptions/a345da0f-c02d-431d-ad29-938ddb193812",
+  "notScopes": [],
+  "parameters": {
+   "effect": {
+    "value": "Deny"
+   },
+   "minimumDaysBeforeExpiration": {
+    "value": 21
+   }
+  },
+  "description": "",
+  "metadata": {
+   "assignedBy": "Rick Qing Xu",
+   "parameterScopes": {},
+   "createdBy": "a1f18a93-c06a-4a54-8039-2ffaed4578dd",
+   "createdOn": "2022-10-31T21:42:07.024739Z",
+   "updatedBy": "a1f18a93-c06a-4a54-8039-2ffaed4578dd",
+   "updatedOn": "2022-10-31T21:51:47.0282489Z"
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/a345da0f-c02d-431d-ad29-938ddb193812/providers/Microsoft.Authorization/policyAssignments/27edb47658a841cdb3ecf5d9",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "27edb47658a841cdb3ecf5d9"
+}
